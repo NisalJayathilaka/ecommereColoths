@@ -1,0 +1,17 @@
+
+
+{
+    "categories":[
+        {
+            "title":"Categories For Women",
+            "data":[
+                {
+                    "id":1,
+                    "title":"Tops",
+                    "description":"Dresses",
+                    "imagePath":"../assets/image/dressOne.webp"
+                }
+            ]
+        }
+    ]
+}
