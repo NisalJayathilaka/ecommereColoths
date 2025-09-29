@@ -1,19 +1,20 @@
 import React from 'react'
+import { ArrowIcon } from '../common/ArrowIcon'
 
 
-export const Card = ({imagePath, title,description, aciionArrow}) => {
+export const Card = ({imagePath, title,description, aciionArrow,height,width}) => {
     
   return (
-    <div className='flex flex-col p-8'>
-        <img className='max-h-[260px] max-w-[220px] min-h-[220px] min-w-[220px] 
-        bg-cover bg-center rounded hover:scale-105 cur
-        sor-pointer' src={imagePath} alt="dress"/>
-        <div className='flex justify-between'>
+    <div className='flex flex-col p-6'>
+        <img className='bg-cover bg-center rounded hover:scale-105 cursor-pointer' 
+        style={{ height: height || "240px", width: width || "200px" }}
+        src={imagePath} alt="dress"/>
+        <div className='flex justify-between items-center'>
         <div className='flex flex-col'>
-        <p className='text-[16px] p-2'>{title}</p>
-        <p className='text-[14px]'>{description}</p>
+        <p className='text-[16px] p-1'>{title}</p>
+        <p className='text-[12px] p-1 text-gray-600'>{description}</p>
        </div>
-         {aciionArrow && <div></div>}
+         {aciionArrow && <span className='cursor-pointer pr-2 items-center'><ArrowIcon /></span>}
        </div>
     </div>
   )

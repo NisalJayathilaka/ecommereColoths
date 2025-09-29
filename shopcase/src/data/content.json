@@ -1,17 +1,149 @@
 
-
 {
-    "categories":[
+  "categories": [
+    {
+      "title": "Categories For Women",
+      "data": [
         {
-            "title":"Categories For Women",
-            "data":[
-                {
-                    "id":1,
-                    "title":"Tops",
-                    "description":"Dresses",
-                    "imagePath":"../assets/image/dressOne.webp"
-                }
-            ]
+          "id": 1,
+          "title": "Tops & T-Shirts",
+          "description": "Explore Now!",
+          "imagePath": "/dressOne.webp"
+        },
+        {
+          "id": 2,
+          "title": "Dresses",
+          "description": "Explore Now!",
+          "imagePath": "/dressTwo.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Jeans",
+          "description": "Explore Now!",
+          "imagePath": "/dressThree.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Jumpsuits",
+          "description": "Explore Now!",
+          "imagePath": "/dressFour.png"
+        },
+        {
+          "id": 5,
+          "title": "Skirts",
+          "description": "Explore Now!",
+          "imagePath": "/dressFive.webp"
         }
+      ]
+    },
+    {
+      "title": "Categories For Men",
+      "data": [
+        {
+          "id": 1,
+          "title": "Tops & T-Shirts",
+          "description": "Explore Now!",
+          "imagePath": "/dressOne.webp"
+        },
+        {
+          "id": 2,
+          "title": "Dresses",
+          "description": "Explore Now!",
+          "imagePath": "/dressTwo.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Jeans",
+          "description": "Explore Now!",
+          "imagePath": "/dressThree.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Jumpsuits",
+          "description": "Explore Now!",
+          "imagePath": "/dressFour.png"
+        },
+        {
+          "id": 5,
+          "title": "Skirts",
+          "description": "Explore Now!",
+          "imagePath": "/dressFive.webp"
+        }
+      ]
+    }
+  ],
+  "footer": {
+    "items": [
+      {
+        "title": "Need Help",
+        "list": [
+          {
+            "id": 1,
+            "label": "Contact Us",
+            "path": "/contact-us"
+          },
+          {
+            "id": 2,
+            "label": "Order Tracking",
+            "path": "/order-tracking"
+          },
+          {
+            "id": 3,
+            "label": "Returns & Refunds",
+            "path": "/returns-refunds"
+          },
+          {
+            "id": 4,
+            "label": "FAQs",
+            "path": "/faqs"
+          },
+          {
+            "id": 5,
+            "label": "Career",
+            "path": "/career"
+          }
+        ]
+      },
+      {
+        "title":"Company",
+        "list": [
+          {
+            "id": 1,
+            "label": "About Us",
+            "path": "/about-us"
+          },
+          {
+            "id": 2,
+            "label": "Media",
+            "path": "/media"
+          }
+        ]
+      },
+      {
+        "title":"More Info",
+        "list": [
+          {
+            "id": 1,
+            "label": "Term and Conditions",
+            "path": "/terms-and-conditions"
+          },
+          {
+            "id": 2,
+            "label": "Privacy Policy",
+            "path": "/privacy-policy"
+          },
+          {
+            "id": 3,
+            "label": "shipping policy", 
+            "path": "/shipping-policy"
+          }
+        ]
+      },
+      {
+        "title":"Location",
+        "description":"Location Country"
+      }
     ]
+  }
 }
+

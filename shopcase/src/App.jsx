@@ -5,13 +5,17 @@ import SectionHandling from './components/sections/SectionHandling/SectionHandli
 import { NewArrivals } from './components/sections/NewArrivals'
 import { Category } from './components/sections/Categories/Category'
 import content from './data/content.json'
+import { Footer } from './components/Footer/Footer'
 function App() {
   return (
     <>
      <Navigation />
      <HeroSection/>
      <NewArrivals/>
-     <Category title={content.categories[0].title} data={content.categories[0].data}/>
+     {content.categories.length > 0 && content?.categories?.map((item) => (
+      <Category key={item.id} title={item.title} data={item.data}/>
+     ))}
+     <Footer content={content.footer}/>
     </>
   )
 }
