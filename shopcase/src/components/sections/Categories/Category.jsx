@@ -3,8 +3,6 @@ import SectionHandling from "../SectionHandling/SectionHandling";
 import { Card } from "../../Card/Card";
 
 export const Category = ({ title, data }) => {
-
-    console.log(data);
     
   return (
     <div>
